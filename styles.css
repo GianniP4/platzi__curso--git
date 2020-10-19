@@ -1,0 +1,69 @@
+/* font-family: 'Cinzel', serif; */
+body {
+    margin: 0px;
+    background-color: cadetblue;
+    box-sizing: content-box;
+}
+
+
+/* .header{
+
+} */
+
+
+.header__box{
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    margin: 20px;
+    color: honeydew;
+    font-weight: 700;
+    font-family: -apple-system,  'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+}
+
+.boxOne{
+    margin: 6px;
+    width: 800px;
+    height: 300px;
+    float: left;
+    background-image: url(/images/lamborghini-countach-wolf-of-wall-street.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: blanchedalmond groove 10px;
+    box-shadow: rgb(212, 176, 121) 8px 10px 10px 8px ;
+}
+
+
+
+
+.circle{
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px ;
+    margin: 100px;
+    /* transform: skewY(45deg); */
+    transform-origin: center bottom ;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-delay: 0s;
+    background-image: url(/images/index.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-border-radius: 100px ;
+    -moz-border-radius: 100px ;
+    -ms-border-radius: 100px ;
+    -o-border-radius: 100px ;
+}   
